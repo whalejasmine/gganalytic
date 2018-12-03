@@ -1,0 +1,41 @@
+nohup: ignoring input
+/opt/conda/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/opt/conda/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+read & prepare datasets shape: (1708337, 93)
+constant conlumns is: ['device.browserSize', 'device.browserVersion', 'device.flashVersion', 'device.language', 'device.mobileDeviceBranding', 'device.mobileDeviceInfo', 'device.mobileDeviceMarketingName', 'device.mobileDeviceModel', 'device.mobileInputSelector', 'device.operatingSystemVersion', 'device.screenColors', 'device.screenResolution', 'geoNetwork.cityId', 'geoNetwork.latitude', 'geoNetwork.longitude', 'geoNetwork.networkLocation', 'socialEngagementType', 'totals.visits', 'trafficSource.adwordsClickInfo.criteriaParameters']
+X_train shape: (903653, 73)
+y_train shape: (903653,)
+X_test shape: (804684, 73)
+Training until validation scores don't improve for 200 rounds.
+[100]	valid_0's rmse: 43.555
+[200]	valid_0's rmse: 3526.58
+Early stopping, best iteration is:
+[82]	valid_0's rmse: 1.69082
+[2018-10-24 19:32:28.839875][16.4 sec] Fold 1 RMSE : 1.690820
+Training until validation scores don't improve for 200 rounds.
+[100]	valid_0's rmse: 101.168
+[200]	valid_0's rmse: 7.16026
+Early stopping, best iteration is:
+[77]	valid_0's rmse: 1.67476
+[2018-10-24 19:32:44.625407][15.7 sec] Fold 2 RMSE : 1.674758
+Training until validation scores don't improve for 200 rounds.
+[100]	valid_0's rmse: 13277.3
+[200]	valid_0's rmse: 809.266
+Early stopping, best iteration is:
+[66]	valid_0's rmse: 1.68608
+[2018-10-24 19:33:00.257496][15.6 sec] Fold 3 RMSE : 1.686077
+Training until validation scores don't improve for 200 rounds.
+[100]	valid_0's rmse: 7.07335
+[200]	valid_0's rmse: 1.69274
+Early stopping, best iteration is:
+[95]	valid_0's rmse: 1.66174
+[2018-10-24 19:33:16.693734][16.4 sec] Fold 4 RMSE : 1.661743
+Training until validation scores don't improve for 200 rounds.
+[100]	valid_0's rmse: 16.2267
+[200]	valid_0's rmse: 5.51198e+15
+Early stopping, best iteration is:
+[77]	valid_0's rmse: 1.69609
+[2018-10-24 19:33:33.255951][16.5 sec] Fold 5 RMSE : 1.696087
+Full RMSE score 1.681962
